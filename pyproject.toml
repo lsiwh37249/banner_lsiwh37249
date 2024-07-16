@@ -1,6 +1,6 @@
 [project]
 name = "banner_lsiwh37249"
-version = "0.3.0"
+version = "0.3.3"
 description = "Banner Output Program"
 authors = [
     {name = "lsiwh37249", email = "lsiwh37249@gmail.com"},
@@ -14,7 +14,8 @@ license = {text = "MIT"}
 
 [project.scripts]
 show-banner = 'banner_lsiwh37249.banner:show'
-show-piv = 'banner_lsiwh37249.banner:pic'
+show-pic = 'banner_lsiwh37249.banner:pic'
+show-lotto = 'banner_lsiwh37249.banner:lotto'
 
 [tool.pdm]
 distribution = true
