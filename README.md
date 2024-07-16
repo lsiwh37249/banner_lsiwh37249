@@ -1,7 +1,10 @@
+
+# banner_lsiwh37249
+
 # **pyfiglet**
 
 ```
-    __   _
+   __   _
    / /__(_)___ ___
   / //_/ / __ `__ \
  / ,< / / / / / / /
@@ -9,28 +12,22 @@
 
 ```
 
-## **Usage**
+# **What is pyfiglet**
 
-You can use pyfiglet in one of two ways. First, it operates on the commandline as C figlet does and supports most of the same options. Run with --help to see a full list of tweaks. Mostly you will only use -f to change the font. It defaults to standard.flf.                                                                                                                                                              `tools/pyfiglet 'text to render'`                                                 
+linux 환경에서 작동되는 figlet 기능입니다. figlet은 새로운 커맨드 창이 뜰 때 맨 처음 보여지는 그림으로 개발자 혹은 사용자의 개성을 나타낼 수 있는 기능입니다. 코드는 파이썬 코드로 이뤄져 있습니다. 
 
-### Pyfiglet is also a library that can be used in python code:
 
-```py
-from pyfiglet import Figlet
-f = Figlet(font='slant')
-print(f.renderText('text to render'))
+## **Result**
+명령어로 show-banner를 치면 결과물을 얻을 수 있습니다.( kim을 예시로 했고 그 결과물입니다. )
+```
+$ show-banner
+   __   _
+   / /__(_)___ ___
+  / //_/ / __ `__ \
+ / ,< / / / / / / /
+/_/|_/_/_/ /_/ /_/
 ```
 
-or   
 
-```py
-import pyfiglet
-f = pyfiglet.figlet_format("text to render", font="slant")
-print(f)
-```
 
-If you have found some new fonts that you want to use, you can use the command line interface to install your font file as follows:                                                                                                                      
-`pyfiglet -L <font file>`
-
-The font file can be a ZIP file of lots of fonts or just a single font. Depending on how you installed pyfiglet, you may find that you need root access to install the font - e.g. sudo pyfiglet -L <font file>. 
 
