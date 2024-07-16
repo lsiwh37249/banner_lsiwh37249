@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.2"
-content_hash = "sha256:f78b72e6ab1b0a39ee19847bfbeaea4a487badd795c2dba0948976019ec49c64"
+content_hash = "sha256:7da7854073113691dfde2305f5f2d67b5f3d3f6a5e2b9e4307f02e3ba015dc68"
 
 [[package]]
 name = "pyfiglet"
