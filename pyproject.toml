@@ -17,3 +17,7 @@ show-banner = 'banner_lsiwh37249.banner:show'
 
 [tool.pdm]
 distribution = true
+
+[project.urls]
+Homepage = "https://github.com/lsiwh37249/banner_lsiwh37249"
+Issues = "https://github.com/lsiwh37249/banner_lsiwh37249/issues"
